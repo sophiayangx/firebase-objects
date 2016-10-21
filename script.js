@@ -1,4 +1,4 @@
-addListItem("product-list", {name: "not cool project"})
+addListItem("product-list", {name: "ham sanwhich"})
 
 onNewListItem("product-list", function(product) {
   console.log("product")
