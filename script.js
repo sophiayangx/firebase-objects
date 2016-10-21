@@ -1,4 +1,4 @@
-//addListItem("product-list", {name: "cool product"})
+addListItem("product-list", {name: "not cool project"})
 
 onNewListItem("product-list", function(product) {
   var nameHeader = $("<h1 class='product-name'>" + product.name + "</h1>")
