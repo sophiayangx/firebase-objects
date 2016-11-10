@@ -1,8 +1,7 @@
-addListItem("product-list", 
-  {
-  name: "wowza"
-//  picture: "10"
-})
+//addListItem("product-list", 
+//  {
+////  name: "wat"
+//})
 
 onNewListItem("product-list", function(product) {
   console.log(product.picture)
